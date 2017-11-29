@@ -1,0 +1,15 @@
+.newslist ul li {
+	border-bottom: 1px solid #e8e8e8;
+}
+.newslist ul li img{
+	width: 5.975rem;
+	height: 3.625rem;
+}
+.newslist ul li div a{
+	width: 10.15rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	line-height: 1.25rem;
+}

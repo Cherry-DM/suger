@@ -1,0 +1,182 @@
+.title_search{
+	padding:0.375rem 0.625rem 0.375rem 0.5rem;
+}
+.title_search .go_back{
+	margin-top:0.25rem;
+}
+.title_search .go_back img{
+	width: 0.45rem;
+	height: 0.825rem;
+	padding-right: 0.5rem;
+}
+.search_gjc{
+	padding: 0.3rem 0 0.3rem 1.5rem;
+	border-radius: 1.0rem;
+	font-size: 0.65rem;
+	width: 13.0rem;
+	height: 0.8rem;
+	outline: none;
+	background: url(../img/sousuo1.png) 0.5rem 0.3rem no-repeat;
+	background-size:0.75rem 0.8rem;
+}
+.gray_search{
+	background: url(../img/sousuo.png) 0.5rem 0.3rem no-repeat;
+	background-size:0.75rem 0.8rem;
+}
+.search_gjc::-webkit-input-placeholder { /* WebKit browsers */
+    color:#fff;
+}
+.search_gjc:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#fff;
+}
+.search_gjc::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#fff;
+}
+.search_gjc:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#fff;
+}
+.search_info{
+	font-size:0.75rem;
+	padding-left: 0.5rem;
+	line-height: 1.55rem;
+}
+
+/*产品列表1*/
+.chanpin_name{
+	height: 1.9rem;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	background: #f7f8f7;
+}
+.chanpin_name a{
+	flex:1;
+	font-size: 0.75rem;
+	color:#444;
+	margin-top: 0.5rem;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.chanpin_name a.active{
+	font-size: 0.95rem;
+	color:#0096ff;
+	margin-top: 0.275rem;
+}
+/*糖果产品列表1*/
+.suger_chanpin .suger_name a.active{
+	color: #f99d53;
+}
+.chanpin_list_content{
+	padding-top: 0.4rem;
+}
+.chanpin_list_content .cp_type{
+	padding: 0 0.5rem;
+  	margin-left: -0.6rem;
+  	display: none;
+}
+.chanpin_list_content .cp_type.active{
+	display: block;
+}
+.chanpin_list_content .cp_type li{
+	font-size: 0.55rem;
+	width: 5.5rem;
+	float: left;
+	text-align: center;
+	margin-left: 0.6rem;
+	padding-top: 0.55rem;
+}
+.chanpin_list_content .cp_type li .cp_list_img{
+	border:1px solid #eaeaea;
+	height: 4.85rem;
+	width:5.5rem;
+	display: table-cell; 
+	text-align:center;
+	vertical-align:middle;
+}
+.chanpin_list_content .cp_type li .cp_list_img img{
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+.chanpin_list_content .cp_type li .cp_list_font{
+	color: #646464;
+	display: block;
+	padding-top: 0.7rem;
+}
+
+/*产品列表2*/
+.gray_search{
+	caret-color:#63cb58; 
+}
+.gray_search::-webkit-input-placeholder { /* WebKit browsers */
+    color:#999;
+}
+.gray_search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#fff;
+}
+.gray_search::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#fff;
+}
+.gray_search:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#fff;
+}
+/*产品*/
+.chanpin_type{
+	width: 4.85rem;
+}
+.chanpin_type a{
+	border-left: 0.15rem solid #f7f7f7;
+	border-right:0.025rem solid #efefef;
+	border-bottom:0.025rem solid #efefef;
+	font-size: 0.6rem;
+	color:#646464;
+	background: #f7f7f7;
+	display: block;
+	padding:0.6rem 0 0.6rem 0.575rem;
+}
+.chanpin_type a.active{
+	border-left: 0.15rem solid #3fc577;
+	border-right: none;
+	color:#3fc577;
+}
+.cpimg_name{
+	padding: 0.4rem 0.825rem 0 0.825rem;
+	width: 12.225rem;
+}
+.cpimg_name .chanpin_content{
+	display: none;
+}
+.cpimg_name .chanpin_content.active{
+	display: block;
+}
+.cpimg_name .chanpin_content li{
+	font-size: 0.55rem;
+	text-align: center;
+	float: left;
+	padding-top: 0.55rem;
+}
+.cpimg_name .chanpin_content li:nth-child(odd){
+	float: left;
+}
+.cpimg_name .chanpin_content li:nth-child(even){
+	float: right;
+}
+.cpimg_name .chanpin_content li .img_wmborder{
+	border:1px solid #e8e8e8;
+	height: 5.1rem;
+	width:5.75rem; 
+	display: table-cell; 
+	text-align:center;
+	vertical-align:middle;
+}
+.cpimg_name .chanpin_content li .img_wmborder img{
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+.cpimg_name .chanpin_content li .img_wmfont{
+	color:#646464;
+	display: block;
+	padding-top:0.6rem;
+}

@@ -1,0 +1,10 @@
+.fontlist ul li{
+	border-bottom: 1px solid #e8e8e8;
+}
+.fontlist ul li a{
+	width: 16.65rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	display: block;
+}

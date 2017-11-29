@@ -1,0 +1,573 @@
+/*logo的样式*/
+.logo img{
+	max-width: 100%;
+	height: 1.875rem;
+}
+/*简介的样式*/
+.intro{
+	text-align: center;
+	margin-top:0.7rem;
+}
+.intro p{
+	color:#777;
+	padding:0.375rem 0.625rem 0.625rem 0.625rem;
+	text-align: left;
+	line-height: 1.2rem;
+}
+/*四个花瓣导航块的样式*/
+.nav_list li{
+	float: left;
+	width:8.875rem;
+	height: 4.5rem;
+	position: relative;
+}
+.nav_list li img{
+	width: 100%;
+	height: 100%;
+}
+.nav_list li:nth-child(2){
+	margin-left: 0.4rem;
+}
+.nav_list li:nth-child(3){
+	margin:0.4rem 0.4rem 0 0; 
+}
+.nav_list li:nth-child(4){
+	margin:0.4rem 0 0 0; 
+}
+.nav_list li a{
+	font-size:1.0rem;
+	color:#fff;
+	padding:0.375rem 0;
+	border-top:0.025rem dashed #fff799;
+	border-bottom: 0.025rem dashed #fff799;
+	position: absolute;
+	left: 50%;
+	top:1.25rem;
+	width: 4.0rem;
+	margin-left: -2.2rem;
+}
+.nav .nav_list li:nth-child(2) a{
+	border-top:0.025rem dashed #7ecef4;
+	border-bottom: 0.025rem dashed #7ecef4;
+}
+.nav .nav_list li:nth-child(3) a{
+	border-top:0.025rem dashed #cce198;
+	border-bottom: 0.025rem dashed #cce198;
+}
+.nav .nav_list li:nth-child(4) a{
+	border-top:0.025rem dashed #f19ec2;
+	border-bottom:0.025rem dashed #f19ec2;
+}
+/*四个导航圆形样式*/
+.nav_four{
+	margin-top:0.7rem;
+}
+.nav_four .nav_four_list{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}	
+.nav_four .nav_four_list li{
+	flex: 1;
+	width: 25%;
+	flex-basis：auto;
+	text-align: center;
+}
+.nav_four .nav_four_list li img{
+	width: 2.25rem;
+	height: 2.25rem;
+}
+/*五个导航*/
+.nav_five{
+	line-height: 2.0rem;
+	background: #004986;
+}
+.nav_five ul{
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.nav_five ul li{
+	flex:1;
+	text-align: center;
+}
+
+.nav_five ul li a{
+	font-size:0.6rem;
+	color:#fff;
+}
+.nav_five ul li a.active{
+	padding-bottom: 0.25rem;
+	border-bottom: 0.05rem solid #fff;
+}
+/*六个导航*/
+.nav_six{
+	margin-top:0.25rem;
+	position: relative;
+}
+.beijing{
+	width: 18.75rem;
+	height: 19.65rem;
+	position: relative;
+}
+.nav_six ul{
+	position: absolute;
+	left: -1.6rem;
+	top:1.7rem;
+	overflow: hidden;
+}
+.nav_six ul li a .left{
+	transform: perspective(10.0rem) rotateY(40deg);
+	-webkit-transform: perspective(10.0rem) rotateY(40deg);
+}
+.nav_six ul li a .left span{
+	width: 2.0rem;
+	height: 3.0rem;
+	background: #82abe8;
+	display: block;
+}
+.down_la img{
+	width: 2.2rem;
+	height: 2.2rem;
+	position: absolute;
+	right: 0.5rem;
+	bottom:3rem;
+}
+.marquee {
+	width: 16.0rem;
+	-webkit-perspective: 12.5rem;
+	perspective: 12.5rem;
+	font-size: 0;
+}
+.nav_six ul li .marquee div.right{
+	box-shadow:5px 5px 10px #999;
+}
+.nav_six ul li:nth-child(1) .marquee div.right,.nav_six ul li:nth-child(3) .marquee div.right{
+    height: 2.5rem;
+    width: 11.25rem;
+}
+.nav_six ul li:nth-child(2) .marquee div.right,.nav_six ul li:nth-child(5) .marquee div.right{
+    height: 2.5rem;
+    width: 8.0rem;
+}
+.nav_six ul li:nth-child(4) .marquee div.right,.nav_six ul li:nth-child(6) .marquee div.right{
+    height: 2.5rem;
+    width: 9.25rem;
+}
+.marquee div {
+  display: inline-block;
+  position: relative;
+}
+.marquee div.left{
+    height:2.5rem;
+    width: 3.5rem;
+}
+.marquee div.right p{
+	display:block;
+    width:0;
+    height:0;
+    border-width:1.3rem 0 1.3rem 1rem;
+    border-style:solid;
+    position: absolute;
+    top:-0.07rem;
+    right: -1rem;
+}
+.marquee div:first-of-type {
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+  -webkit-transform: rotateY(-40deg);
+  transform: rotateY(-40deg);
+  color: #fff;
+}
+.marquee div:last-of-type {
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transform: rotateY(1deg);
+  transform: rotateY(1deg);
+  color: #f8c9d9;
+}
+.nav_six ul li:nth-child(1) .marquee div.right p{
+    border-color:transparent transparent transparent #8fbcfe;
+}
+.nav_six ul li:nth-child(1) .marquee div:first-of-type{
+	background: #80a9e5;
+}
+.nav_six ul li:nth-child(1) .marquee div:last-of-type{
+	 background: #8fbcfe;
+}
+.nav_six ul li:nth-child(2) .marquee div.right p{
+    border-color:transparent transparent transparent #f15a29;
+}
+.nav_six ul li:nth-child(2) .marquee div:first-of-type{
+	background: #d85125;
+}
+.nav_six ul li:nth-child(2) .marquee div:last-of-type{
+	background: #f15a29;
+}
+.nav_six ul li:nth-child(3) .marquee div.right p{
+    border-color:transparent transparent transparent #2ae6fc;
+}
+.nav_six ul li:nth-child(3) .marquee div:first-of-type{
+	background: #25cce1;
+}
+.nav_six ul li:nth-child(3) .marquee div:last-of-type{
+	background: #2ae6fc;
+}
+.nav_six ul li:nth-child(4) .marquee div.right p{
+    border-color:transparent transparent transparent #03daa3;
+}
+.nav_six ul li:nth-child(4) .marquee div:first-of-type{
+	background: #03ca98;
+}
+.nav_six ul li:nth-child(4) .marquee div:last-of-type{
+	background: #03daa3;
+}
+.nav_six ul li:nth-child(5) .marquee div.right p{
+    border-color:transparent transparent transparent #ff69b4;
+}
+.nav_six ul li:nth-child(5) .marquee div:first-of-type{
+	background: #e55ea2;
+}
+.nav_six ul li:nth-child(5) .marquee div:last-of-type{
+	background: #ff69b4;
+}
+.nav_six ul li:nth-child(6) .marquee div.right p{
+    border-color:transparent transparent transparent #80cdea;
+}
+.nav_six ul li:nth-child(6) .marquee div:first-of-type{
+	background: #73b9d4;
+}
+.nav_six ul li:nth-child(6) .marquee div:last-of-type{
+	background: #80cdea;
+}
+.marquee div span {
+  position: absolute;
+  width: 400%;
+  line-height: 2.5rem;
+}
+.marquee div:last-of-type span{
+	color: #fff;
+}
+.marquee div:last-of-type span.shuzi{
+	font-size: 1.425rem;
+}
+.marquee div:last-of-type span.wenzi{
+	font-size: 0.9rem;
+	padding-left: 2.5rem;
+	font-family:  "PingFang SC";
+}
+
+
+/*带绿框的头部*/
+.contop_title{
+	padding:0.15rem;
+	border:0.05rem solid #cce198;
+}
+.contop_t_con{
+	padding:0.25rem 0;
+	border:0.025rem dashed #cce198;
+}
+/*带绿框的头部 end*/
+
+/*产品案例1 规则不一的六个产品图片*/
+.anli_list li{
+	float: left;
+}
+.anli_list li img{
+	width: 100%;
+	height: 100%;
+}
+.anli_list li:nth-child(1){
+	width: 10.3rem;
+	height: 8.4rem;
+}
+.anli_list li:nth-child(2){
+	width: 7.2rem;
+	margin-left: 0.2rem;
+}
+.anli_list li:nth-child(3){
+	margin-left: 0.2rem;
+	width: 7.2rem;
+}
+.anli_list li:nth-child(4){
+	width: 7.5rem;
+
+}
+.anli_list li:nth-child(5){
+	margin-left: 0.2rem;
+	width: 10.0rem;
+}
+/*产品案例2 规则一致的六个产品图片*/
+.pro_show{
+	margin-top:0.875rem;
+	padding: 0 0 0.75rem 0.05rem;
+	background: #f5f5f5;
+}
+.pro_show ul li{
+	display: -webkit-box !important;
+	display: -webkit-flex !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 5.375rem;
+	height: 5.375rem;
+	border:1px solid #e5e5e5;
+	margin:0.75rem 0 0 0.625rem;
+	float: left;
+	background: #fff;
+	text-align: center;
+}
+.pro_show ul li a img{
+ 	max-width: 100%;
+	max-height: 100%;
+	width: 2.525rem;
+	height: 3.325rem;
+ }
+.pro_show ul li, .pro_show ul li *, .pro_show ul li :after, .pro_show ul li :before {
+    box-sizing: border-box;
+}
+.pro_show ul li.justify-center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+.pro_show ul li.center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+/*糖果产品介绍*/
+.suger_img ul li a img{
+	max-width: 100%;
+	max-height: 100%;
+	width: 5.375rem;
+	height: 3.8rem;
+}
+.suger_img ul li a p{
+	margin-top: 0.175rem;
+}
+/*案例3 六边形展示*/
+.six_anli{
+	margin-top:0.7rem;
+	text-align: center;
+}
+.six_anli ul li:nth-child(odd){
+	padding:0 1.4rem 1.5rem 0.65rem;
+}
+.six_anli ul li .img_border{
+	width: 8.0rem;
+	height: 7.0rem;
+}
+.six_anli ul li .img_limian{
+	position:relative;
+	top:-7.05rem;
+	left:0;
+	width:7.6rem;
+	height:6.65rem;
+}
+.six_anli ul li .left_imglb{
+	width: 8.0rem;
+	height: 7.0rem;
+}
+.six_anli ul li .right_fontlb{
+	padding-top: 1.175rem;
+	width: 7.0rem;
+	text-align: center;
+}
+.right_fontlb .mid_xuxian{
+	border-bottom: 0.125rem dashed #e5e5e5;
+}
+.right_fontlb .font_xuxian{
+	font-size:1.2rem;
+	color:#333;
+	font-weight: 600;
+	padding-top: 0.5rem;
+}
+.six_anli ul li .img_font{
+	width: 2.475rem;
+	height: 1.725rem;
+}
+.six_anli ul li:nth-child(even){
+	padding:0 0.65rem 1.5rem 1.4rem;
+}
+.look_more{
+	padding:0.07rem;
+	color:#fff;
+	font-size: 0.75rem;
+	border:0.075rem solid #ff730d;
+	border-radius: 1rem;
+	display: inline-block;
+}
+.look_more span{
+	display: inline-block;
+	padding:0.3rem 0.8rem;
+	background: #ff730d;
+	border-radius: 1rem;
+}
+.look_more:hover{
+	padding:0 0.12rem 0.12rem 0;
+}
+/*列表展示 图片带遮罩层的文字标题*/
+.list_show{
+	padding:0 0.8rem 0.5rem 0.8rem;
+}
+.list_show ul li{
+	margin-top:0.5rem;
+	position: relative;
+	height: 8.3rem;
+}
+.list_show ul li a img{
+	width: 17.2rem;
+	height: 8.3rem;
+}
+.list_show ul li a .shadow{
+	width: 17.2rem;
+	height: 1.5rem;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+}
+.list_show ul li a p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 0.6rem;
+	line-height: 1.5rem;
+	padding-left: 0.5rem;
+	color:#000;
+	z-index: 10;
+}
+/*中虚线*/
+.mid_line{
+	padding-top:0.45rem;
+	border-bottom: 0.025rem dashed #d2d2d2;
+}
+
+/*新闻咨询*/
+.news_list{
+	width: 18.75rem;
+}
+.news_list img{
+	width: 100%;
+}
+.news_list p{
+	line-height: 1.75rem;
+	padding-left: 0.5rem;
+}
+.news_list p i{
+	width: 0.1rem;
+	height: 0.57rem;
+	border-radius: 0.125rem;
+	margin-top:0.625rem;
+}
+.news_list p a{
+	width: 16.5rem;
+	padding-left: 0.375rem;
+	overflow:hidden; 
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	color:#333;
+}
+/*新闻咨询 文字展示列表*/
+.six_news_list{
+	padding-top:1.5rem;
+}
+.six_news_list ul li{
+	height: 4.0rem;
+	background: #fff;
+}
+.six_news_list ul li:nth-child(odd){
+	background: #f7f7f7;
+}
+.six_news_list ul li:nth-child(1){
+	border-left: 0.25rem solid #e4b720;
+}
+.six_news_list ul li:nth-child(2){
+	border-left: 0.25rem solid #f376bc;
+}
+.six_news_list ul li:nth-child(3){
+	border-left: 0.25rem solid #24b99c;
+}
+.six_news_list ul li:nth-child(4){
+	border-left: 0.25rem solid #acd23e;
+}
+.six_news_list ul li:nth-child(5){
+	border-left: 0.25rem solid #ce4288;
+}
+.six_news_list ul li:nth-child(6){
+	border-left: 0.25rem solid #96c37f;
+}
+.six_news_list ul li .news_con{
+	padding-left: 0.675rem;
+}
+.news_con a h5{
+	font-size: 0.75rem;
+	color: #666;
+	font-weight: normal;
+	padding-top:0.4rem;
+	overflow: hidden; 
+	text-overflow:ellipsis; 
+	white-space: nowrap;
+	width: 11.25rem;
+}
+.news_con a p{
+	width: 16.75rem;
+	color:#999;
+	padding-top:0.3rem;
+	font-size: 0.65rem;
+	overflow: hidden; 
+	text-overflow:ellipsis; 
+	white-space: nowrap;
+}
+.news_con span{
+	font-size: 0.6rem;
+	color: #999;
+}
+/*底部的线*/
+.footer_line{
+	border-bottom:0.025rem solid #c7c7c7;
+	border-top:0.025rem solid #c7c7c7;
+}
+
+/*底部导航*/
+.footer_nav_list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:center;
+}
+.footer_nav_list li{
+	flex:1;
+	text-align: center;
+}
+.footer_nav_list li a{
+	color: #333;
+}
+.six_footer .footer_nav_list li a.on{
+	color:#ff730d;
+}
+.index_footer .footer_nav_list li a.on{
+	color:#0096ff;
+}
+.five_footer .footer_nav_list li a.on{
+	color:#004986;
+}
+
+.footer_nav_list li a img{
+	width: 0.925rem;
+	height: 0.95rem;
+}
+/*糖果底部*/
+.suger_footer .footer_nav_list li a.on{
+	color: #f99d53;
+}
