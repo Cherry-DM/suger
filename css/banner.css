@@ -33,6 +33,7 @@
 }
 .box_banner ul li img{
 	max-width: 100%;
+    min-width: 100%;
 }
 ol{
     width: 3.6rem;

@@ -24,8 +24,9 @@
 /*轮播图*/
 .banner img{
 	max-width: 100%; 
-	min-width: 18.75rem;
-}
+	min-width: 100%;
+/*	min-width: 18.75rem;
+*/}
 /*产品信息*/
 .chanpinginfo{
 	padding:0.75rem 0 0.6rem 0.5rem;
@@ -145,6 +146,7 @@
 }
 /*糖果图片*/
 .suger_tu img{
+	min-width: 100%;
 	max-width: 100%;
 	margin-top: -0.25rem;
 	padding:0;
