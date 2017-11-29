@@ -60,13 +60,14 @@ i{font-style: normal;}
 .bgf9{background: #f9f9f9;}
 .bg09f{background: #0096ff;}
 .bgf99d53{background: #f99d53;}
+.bg00{background: #000;} 
 
 .border-de{border:0.025rem solid #dedede;}
 .border-ff{border:0.025rem solid #fff;}
 .border-b-09f{border-bottom: 0.025rem solid #0096ff;}
 .border-b-e5{border-bottom: 0.025rem solid #e5e5e5;}
 .border-b-f99d53{border-bottom: 0.025rem solid #f99d53;}
-
+.border-b-00{border-bottom: 0.025rem solid #000;}
 /*头部*/
 .title_search{
 	width: 18.75rem;

@@ -12,6 +12,7 @@
 }
 .info_img{
 	max-width: 100%;
+	min-width: 100%;
 }
 .info p{
 	font-size:0.9rem;
