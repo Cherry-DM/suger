@@ -533,6 +533,10 @@
 	font-size: 0.6rem;
 	color: #999;
 }
+/*版权*/
+.bggr{
+	margin-bottom: 3.0rem;
+}
 /*底部的线*/
 .footer_line{
 	border-bottom:0.025rem solid #c7c7c7;
@@ -540,6 +544,15 @@
 }
 
 /*底部导航*/
+.footer_nav {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  bottom: 0;
+  margin-bottom: 0;
+  background: #fff;
+}
 .footer_nav_list{
 	display: flex;
 	flex-direction: row;
